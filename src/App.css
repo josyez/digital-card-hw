@@ -1,0 +1,83 @@
+*{
+  background-color: rgb(41, 47, 56);
+ 
+}
+
+body {
+  box-sizing: border-box;
+  /* border: 2px solid red; */
+  width: 500px;
+  height: 900px;
+  margin: 50px auto;
+  
+}
+
+.image {
+  /* display: flex;
+  justify-content: center; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 25vh;
+}
+
+.info >h1, h2{
+  text-align: center;
+  color: white;
+}
+
+.info >h3{
+  color: blanchedalmond;
+  text-align: center;
+}
+
+.about >h2{
+  text-align: left; 
+}
+
+.about >p{
+  color: white;
+  line-height: 20px;
+  
+}
+
+.interests >p{
+  color: white;
+  line-height: 20px;
+}
+
+.interests >h2{
+  text-align: left;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+}
+.btn-email{
+  /* display: flex; */
+  /* justify-content: center; */
+  justify-content: space-around;
+  
+  padding: 10px 60px;
+  background-color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  
+  color: rgb(2, 2, 2);
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 90px;
+  background: rgb(58, 58, 67);
+  
+}
+
+.footer > img{
+  width: 40px;
+  height: 40px;
+  
+}
